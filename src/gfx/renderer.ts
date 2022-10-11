@@ -27,7 +27,7 @@ export class CanvasScene extends Scene {
         this.canvasEl.height = this.rootEl.clientHeight
         this.rootEl.appendChild(this.canvasEl)
         const rc = rough.canvas(this.canvasEl)
-        const d = rc.rectangle(10, 10, 10, 10)
+        const d = rc.rectangle(100, 100, 100, 100)
     }
 
     render () {
